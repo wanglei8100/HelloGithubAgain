@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="300dip"
+        android:layout_height="90dip"
+        android:background="@color/white"
+        >
+        <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/confirm_prompt"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="@string/registersuccess"
+        android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="300dip"
+        android:layout_height="40dip"
+        android:id="@+id/confirm_layout"
+        android:background="#e87429"
+        >
+        <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/confirm"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/layout/confirmdialog.xml -->

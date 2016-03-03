@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+ <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+            android:orientation="vertical"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+           android:paddingLeft="10dip"
+           android:paddingTop="27dip" >
+
+        <EditText
+            android:id="@+id/et_old_pwd"
+            android:hint="原始登录密码"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+               android:textColorHint="#bebebe"
+               android:singleLine="true"
+               android:textSize="18sp"
+            android:inputType="textPassword" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+         >
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:gravity="center_vertical"
+           android:paddingLeft="10dip"
+           android:paddingTop="27dip" >
+
+        <EditText
+            android:id="@+id/et_new_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="新密码"
+            android:inputType="textPassword"
+            android:background="@null"
+               android:textColorHint="#bebebe"
+               android:singleLine="true"
+               android:textSize="18sp" 
+            android:maxLength="16" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+         >
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:gravity="center_vertical"
+           android:paddingLeft="10dip"
+           android:paddingTop="27dip"  >
+
+        <EditText
+            android:id="@+id/et_new_pwd_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="再次输入"
+            android:background="@null"
+               android:textColorHint="#bebebe"
+               android:singleLine="true"
+               android:textSize="18sp" 
+            android:inputType="textPassword"
+            android:maxLength="16" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+         >
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/confirm_modify"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/button_click_selector"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
+        
+    </ScrollView>
+</LinearLayout>

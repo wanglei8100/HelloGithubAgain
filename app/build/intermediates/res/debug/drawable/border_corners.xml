@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >  
+	<stroke  
+	 android:width="0.01dp"  
+	android:color="@color/gray_light" />  
+	<padding  
+	android:bottom="1dp"  
+	android:left="1dp"
+	android:right="1dp"
+	android:top="1dp" />
+	<corners android:topLeftRadius="20dp"
+	android:topRightRadius="20dp"
+	android:bottomRightRadius="20dp"
+	android:bottomLeftRadius="20dp"
+	/>
+</shape>
+<!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/drawable/border_corners.xml -->

@@ -1,0 +1,220 @@
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 10 samples:
+    Cached: 238MB min, 340MB avg, 0.89GB max
+    Free: 37MB min, 70MB avg, 205MB max
+    ZRam: 4.0KB min, 69MB avg, 90MB max
+    Kernel: 77MB min, 114MB avg, 190MB max
+    Native: 24MB min, 38MB avg, 79MB max
+       Mod : 4 samples:
+    Cached: 212MB min, 235MB avg, 298MB max
+    Free: 39MB min, 43MB avg, 50MB max
+    ZRam: 78MB min, 86MB avg, 90MB max
+    Kernel: 84MB min, 89MB avg, 94MB max
+    Native: 25MB min, 27MB avg, 30MB max
+       Low : 1 samples:
+    Cached: 200MB min, 200MB avg, 200MB max
+    Free: 42MB min, 42MB avg, 42MB max
+    ZRam: 89MB min, 89MB avg, 89MB max
+    Kernel: 92MB min, 92MB avg, 92MB max
+    Native: 23MB min, 23MB avg, 23MB max
+  SOn /Norm: 17 samples:
+    Cached: 161MB min, 301MB avg, 517MB max
+    Free: 36MB min, 195MB avg, 643MB max
+    ZRam: 620KB min, 65MB avg, 94MB max
+    Kernel: 64MB min, 98MB avg, 192MB max
+    Native: 22MB min, 35MB avg, 82MB max
+       Mod : 10 samples:
+    Cached: 211MB min, 281MB avg, 359MB max
+    Free: 36MB min, 46MB avg, 61MB max
+    ZRam: 49MB min, 74MB avg, 88MB max
+    Kernel: 63MB min, 101MB avg, 164MB max
+    Native: 26MB min, 36MB avg, 44MB max
+       Low : 5 samples:
+    Cached: 240MB min, 308MB avg, 414MB max
+    Free: 37MB min, 68MB avg, 119MB max
+    ZRam: 51MB min, 69MB avg, 77MB max
+    Kernel: 65MB min, 100MB avg, 183MB max
+    Native: 33MB min, 38MB avg, 43MB max
+       Crit: 2 samples:
+    Cached: 219MB min, 234MB avg, 249MB max
+    Free: 38MB min, 42MB avg, 46MB max
+    ZRam: 70MB min, 72MB avg, 75MB max
+    Kernel: 65MB min, 93MB avg, 121MB max
+    Native: 38MB min, 40MB avg, 41MB max
+
+Per-Package Stats:
+  * com.caihongcity.com / u0a178 / v19:
+      * com.caihongcity.com / u0a178 / v19:
+               TOTAL: 0.49% (17MB-27MB-40MB/16MB-25MB-39MB over 5)
+                 Top: 0.49% (17MB-27MB-40MB/16MB-25MB-39MB over 5)
+          (Last Act): 0.31% (42MB-42MB-42MB/40MB-40MB-40MB over 1)
+            (Cached): 1.1% (40MB-40MB-40MB/39MB-39MB-39MB over 2)
+
+Summary:
+  * com.caihongcity.com / u0a178 / v19:
+           TOTAL: 0.49% (17MB-27MB-40MB/16MB-25MB-39MB over 5)
+             Top: 0.49% (17MB-27MB-40MB/16MB-25MB-39MB over 5)
+      (Last Act): 0.31% (42MB-42MB-42MB/40MB-40MB-40MB over 1)
+        (Cached): 1.1% (40MB-40MB-40MB/39MB-39MB-39MB over 2)
+
+Run time Stats:
+  SOff/Norm: +7h30m57s364ms
+       Mod : +9m23s126ms
+       Low : +4m39s880ms
+  SOn /Norm: +10h56m23s134ms
+       Mod : +28m26s708ms
+       Low : +38m6s245ms
+       Crit: +14m9s9ms
+      TOTAL: +20h2m5s466ms
+
+Memory usage:
+  Kernel : 104MB (193 samples)
+  Native : 36MB (193 samples)
+  Persist: 196MB (1659 samples)
+  Top    : 62MB (3928 samples)
+  ImpFg  : 121MB (8699 samples)
+  ImpBg  : 21MB (1815 samples)
+  Service: 343MB (10948 samples)
+  Receivr: 67KB (11893 samples)
+  Home   : 17MB (156 samples)
+  LastAct: 16MB (538 samples)
+  CchAct : 24MB (959 samples)
+  CchCAct: 42KB (2 samples)
+  CchEmty: 88MB (4819 samples)
+  Cached : 315MB (193 samples)
+  Free   : 138MB (193 samples)
+  Z-Ram   : 67MB (193 samples)
+  TOTAL  : 1.5GB
+  ServRst: 4.3MB (13411 samples)
+
+          Start time: 2015-11-22 13:21:13
+  Total elapsed time: +23h45m33s917ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 3 samples:
+    Cached: 276MB min, 299MB avg, 321MB max
+    Free: 39MB min, 45MB avg, 52MB max
+    ZRam: 88MB min, 89MB avg, 90MB max
+    Kernel: 104MB min, 151MB avg, 190MB max
+    Native: 30MB min, 30MB avg, 31MB max
+       Mod : 1 samples:
+    Cached: 298MB min, 298MB avg, 298MB max
+    Free: 50MB min, 50MB avg, 50MB max
+    ZRam: 88MB min, 88MB avg, 88MB max
+    Kernel: 94MB min, 94MB avg, 94MB max
+    Native: 30MB min, 30MB avg, 30MB max
+  SOn /Norm: 1 samples:
+    Cached: 346MB min, 346MB avg, 346MB max
+    Free: 68MB min, 68MB avg, 68MB max
+    ZRam: 87MB min, 87MB avg, 87MB max
+    Kernel: 192MB min, 192MB avg, 192MB max
+    Native: 30MB min, 30MB avg, 30MB max
+       Mod : 1 samples:
+    Cached: 313MB min, 313MB avg, 313MB max
+    Free: 42MB min, 42MB avg, 42MB max
+    ZRam: 88MB min, 88MB avg, 88MB max
+    Kernel: 164MB min, 164MB avg, 164MB max
+    Native: 30MB min, 30MB avg, 30MB max
+
+Per-Package Stats:
+  * com.caihongcity.com / u0a178 / v19:
+      * com.caihongcity.com / u0a178 / v19:
+               TOTAL: 2.8% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+                 Top: 2.8% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+          (Last Act): 0.03%
+
+Summary:
+  * com.caihongcity.com / u0a178 / v19:
+           TOTAL: 2.8% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+             Top: 2.8% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+      (Last Act): 0.03%
+
+Run time Stats:
+  SOff/Norm: +59m18s706ms
+       Mod : +60s525ms
+       Low : +31s575ms
+  SOn /Norm: +2h17m8s174ms
+       Mod : +2m28s855ms
+      TOTAL: +3h20m27s835ms
+
+Memory usage:
+  Kernel : 150MB (45 samples)
+  Native : 30MB (45 samples)
+  Persist: 171MB (462 samples)
+  Top    : 38MB (247 samples)
+  ImpFg  : 87MB (767 samples)
+  ImpBg  : 17MB (81 samples)
+  Service: 418MB (1440 samples)
+  Receivr: 15KB (527 samples)
+  Home   : 30MB (212 samples)
+  LastAct: 5.6MB (40 samples)
+  CchAct : 49MB (95 samples)
+  CchEmty: 91MB (338 samples)
+  Cached : 306MB (45 samples)
+  Free   : 48MB (45 samples)
+  Z-Ram   : 89MB (45 samples)
+  TOTAL  : 1.5GB
+  ServRst: 89KB (478 samples)
+
+          Start time: 2015-11-23 16:17:49
+  Total elapsed time: +3h59m59s467ms (partial) libart.so
+
+CURRENT STATS:
+System memory usage:
+  SOff/Norm: 1 samples:
+    Cached: 300MB min, 300MB avg, 300MB max
+    Free: 43MB min, 43MB avg, 43MB max
+    ZRam: 88MB min, 88MB avg, 88MB max
+    Kernel: 158MB min, 158MB avg, 158MB max
+    Native: 30MB min, 30MB avg, 30MB max
+       Mod : 1 samples:
+    Cached: 298MB min, 298MB avg, 298MB max
+    Free: 50MB min, 50MB avg, 50MB max
+    ZRam: 88MB min, 88MB avg, 88MB max
+    Kernel: 94MB min, 94MB avg, 94MB max
+    Native: 30MB min, 30MB avg, 30MB max
+
+Per-Package Stats:
+  * com.caihongcity.com / u0a178 / v19:
+      * com.caihongcity.com / u0a178 / v19:
+               TOTAL: 27% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+                 Top: 27% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+          (Last Act): 0.31%
+
+Summary:
+  * com.caihongcity.com / u0a178 / v19:
+           TOTAL: 27% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+             Top: 27% (17MB-25MB-40MB/16MB-24MB-38MB over 3)
+      (Last Act): 0.31%
+
+Run time Stats:
+  SOff/Norm: +6m32s550ms
+       Mod : +60s525ms
+       Low : +31s575ms
+  SOn /Norm: +10m54s168ms (running)
+       Mod : +1m20s902ms
+      TOTAL: +20m19s720ms
+
+Memory usage:
+  Kernel : 126MB (16 samples)
+  Native : 30MB (16 samples)
+  Persist: 173MB (110 samples)
+  Top    : 66MB (35 samples)
+  ImpFg  : 111MB (159 samples)
+  ImpBg  : 17MB (35 samples)
+  Service: 408MB (580 samples)
+  Receivr: 99KB (117 samples)
+  Home   : 38MB (45 samples)
+  LastAct: 22MB (16 samples)
+  CchAct : 72MB (37 samples)
+  CchEmty: 79MB (131 samples)
+  Cached : 299MB (16 samples)
+  Free   : 46MB (16 samples)
+  Z-Ram   : 88MB (16 samples)
+  TOTAL  : 1.5GB
+  ServRst: 813KB (143 samples)
+
+          Start time: 2015-11-23 19:17:57
+  Total elapsed time: +59m51s615ms (partial) libart.so

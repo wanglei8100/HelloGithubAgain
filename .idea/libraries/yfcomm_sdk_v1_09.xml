@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yfcomm_sdk_v1.09">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/yfcomm_sdk_v1.09.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

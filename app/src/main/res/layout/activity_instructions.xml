@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:id="@+id/rl_operate_declare"
+        android:paddingRight="10dip"
+        >
+    	<ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_operate_declare"
+            android:id="@+id/iv_operate_declare"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作说明"
+             android:textSize="18sp"
+             android:textColorHint="#bebebe"
+             android:layout_toRightOf="@+id/iv_operate_declare"
+             android:layout_marginLeft="9dip"
+            />
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comein"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        
+    </RelativeLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+         >
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+        />
+    </LinearLayout>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:id="@+id/rl_rate_declare"
+        android:paddingRight="10dip"
+        >
+    	<ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_rate_declare"
+            android:id="@+id/iv_rate_declare"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="费率说明"
+             android:background="@null"
+             android:textSize="18sp"
+             android:textColorHint="#bebebe"
+             android:layout_toRightOf="@+id/iv_rate_declare"
+             android:layout_marginLeft="9dip"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comein"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+         >
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+        
+        
+        />
+    </LinearLayout> <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:id="@+id/rl_tixian_declare"
+        android:paddingRight="10dip"
+        >
+    	<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_tixian_declare"
+            android:id="@+id/iv_tixian_declare"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提现说明"
+             android:background="@null"
+             android:textSize="18sp"
+             android:textColorHint="#bebebe"
+             android:layout_toRightOf="@+id/iv_tixian_declare"
+             android:layout_marginLeft="9dip"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comein"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+         >
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+
+
+        />
+    </LinearLayout> <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:id="@+id/rl_error_reminder"
+        android:paddingRight="10dip"
+        >
+    	<ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_error_reminder"
+            android:id="@+id/iv_error_reminder"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="错误提示"
+             android:background="@null"
+             android:textSize="18sp"
+             android:textColorHint="#bebebe"
+             android:layout_toRightOf="@+id/iv_error_reminder"
+             android:layout_marginLeft="9dip"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comein"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+         >
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#7c8692"
+
+
+        />
+    </LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>

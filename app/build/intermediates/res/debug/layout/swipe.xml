@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="40dip"
+                android:paddingRight="10dip"
+                android:paddingTop="64dip">
+
+                <TextView
+                    android:id="@+id/money"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="999,999.00"
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/calculator_layout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="#FFFFFF"
+                    android:divider="?android:attr/listDivider"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:showDividers="middle">
+
+                    <LinearLayout
+                        android:id="@+id/calculator_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:divider="?android:attr/listDivider"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:showDividers="middle">
+
+                        <!-- 纵向排列 数字键盘
+
+                        7 8 9
+                               +
+                        4 5 6
+
+                        -->
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="2"
+                            android:divider="?android:attr/listDivider"
+                            android:gravity="center"
+                            android:showDividers="middle">
+
+                            <LinearLayout
+
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:divider="?android:attr/listDivider"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+                                <!-- 7 -->
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_seven_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/seven_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+                                <!-- 4 -->
+                                <LinearLayout
+                                    android:id="@+id/calculator_four_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/four_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!-- 8,5 -->
+
+                            <LinearLayout
+
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:divider="?android:attr/listDivider"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_eight_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/eight_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_five_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/five_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!-- 9,6 -->
+                            <LinearLayout
+
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:divider="?android:attr/listDivider"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_nine_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/nine_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_six_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/six_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!-- 加号 -->
+
+                            <LinearLayout
+                                android:id="@+id/calculator_csign_menu"
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/key_selector"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:gravity="center"
+                                    android:text="@string/csign"
+                                    android:textColor="#000000"
+                                    android:textSize="23sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <!-- 纵向排列 数字键盘
+
+                         1 2  3
+                                 =
+                         0 .  00
+
+                         -->
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dip"
+                            android:layout_weight="2"
+                            android:divider="?android:attr/listDivider"
+                            android:gravity="center"
+                            android:showDividers="middle">
+
+
+                            <!--1 ,0-->
+                            <LinearLayout
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:divider="?android:attr/listDivider"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_one_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/one_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+
+                                    android:id="@+id/calculator_zero_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/zero_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <!--2,.  -->
+
+                            <LinearLayout
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:divider="?android:attr/listDivider"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_two_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/two_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_point_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/point"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:divider="?android:attr/listDivider"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:showDividers="middle">
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_three_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/three_num"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/calculator_twozero_menu"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/key_selector"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="@string/twozero"
+                                        android:textColor="#000000"
+                                        android:textSize="23sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <!--  "=" -->
+
+                            <LinearLayout
+                                android:id="@+id/calculator_clear_menu"
+                                android:layout_width="0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/key_selector"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="@string/clear"
+                                    android:textColor="#000000"
+                                    android:textSize="23sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:gravity="bottom|center_vertical"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip">
+
+                <Button
+                    android:id="@+id/confirmswipe"
+                    android:layout_width="340dip"
+                    android:layout_height="45dip"
+                    android:background="@drawable/button_click_selector"
+                    android:text="@string/confirmswipe"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/layout/swipe.xml -->

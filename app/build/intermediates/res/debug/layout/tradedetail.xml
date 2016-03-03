@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <!--显示消费以及撤销结果  -->
+    <ScrollView
+        android:layout_width="fill_parent"
+
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/consumeresult_pro_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:paddingBottom="5dip">
+
+            <LinearLayout
+                android:background="@color/title_bg"
+                android:id="@+id/consumetradetime_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingTop="21dip">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:text="@string/trademoney"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/title_bg"
+                android:id="@+id/consumetrademoney_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/consumetrademoney"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:gravity="right"
+                    android:paddingLeft="10dip"
+                    android:text="999,999.00"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="14dip">
+
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#CCCCCC" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/customer_name_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dip">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="商户名称："
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/customer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="范冰冰"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trade_type"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tradetype_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="消费"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trade_rate"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/trade_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="0.88"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/co_layout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/consumetradetime"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/consumetradetime_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="2015-01-01 11:11"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tradecardnumber"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cardnumber_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="12345678901212"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tradenumber"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tradenumber_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="201501011111111111"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/shouquanma_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shouquanma"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/shouquanma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="123456"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shouquanma_view"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_tixian_satus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="提现状态："
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_tixian_satus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="提现成功"
+                    android:textColor="#00C957"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tixian_satus_view"
+                android:visibility="gone"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="10dip"
+                android:paddingLeft="20dip"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cardbank"
+                    android:textColor="#7c8692"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cardbank_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10dip"
+                    android:text="建设银行"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tradestatus"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/tradestatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="交易成功"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tradesuccess"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <View
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.01dp"
+                    android:background="#ADADAD" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="10dip"
+                android:paddingLeft="20dip"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkstatus"
+                    android:textColor="#7c8692"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/checkstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text="未审核"
+                    android:textColor="#00C957"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="10dip"
+                android:paddingLeft="20dip"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balancestatus"
+                    android:textColor="#7c8692"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/balanccestatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text="未结算"
+                    android:textColor="#00C957"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/signnameimage_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="5dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical|center"
+                        android:paddingBottom="10dp"
+                        android:text="@string/signnameimage"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp">
+
+                    <ImageView
+                        android:id="@+id/iv_sign_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                         />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/phoneofcustomer_layout"
+                        android:layout_width="204dip"
+                        android:layout_height="45dip"
+                        android:gravity="center|center_vertical"
+                        android:paddingLeft="10dip"
+                        android:visibility="gone">
+
+
+                        <EditText
+                            android:id="@+id/sendphone_pro"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:hint="@string/pleaseinputcustomermobile"
+                            android:inputType="phone"
+                            android:maxLength="11"
+                            android:paddingLeft="10dip"
+                            android:textSize="15sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sendbtn_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right|center_vertical"
+                        android:paddingLeft="5dip"
+                        android:visibility="gone">
+
+                        <Button
+
+                            android:id="@+id/consume_result_sendbtn_pro"
+                            android:layout_width="125dip"
+                            android:layout_height="45dip"
+                            android:background="@drawable/add_selector"
+                            android:text="@string/send"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="345dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:visibility="visible">
+
+                    <Button
+                        android:visibility="gone"
+                        android:id="@+id/canceltrade"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="45dip"
+                        android:background="@drawable/button_click_selector"
+                        android:text="@string/canceltrade"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <Button
+                        android:id="@+id/bt_cancel"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="45dip"
+                        android:background="@drawable/button_click_selector"
+                        android:text="@string/cancel"
+                        android:layout_marginRight="5dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                    <Button
+                        android:id="@+id/bt_tixian"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="45dip"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_click_selector"
+                        android:text="@string/tixian"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/layout/tradedetail.xml -->

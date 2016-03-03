@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_start" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dip" >
+
+
+         <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国家庭院校园区域名字体现"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:gravity="center" >
+
+                <View
+                    android:id="@+id/v_dot0"
+                    style="@style/dot_style"
+                    android:background="@drawable/dot_focused" />
+
+                <View
+                    android:id="@+id/v_dot1"
+                    style="@style/dot_style" />
+
+                <View
+                    android:visibility="visible"
+                    android:id="@+id/v_dot2"
+                    style="@style/dot_style" />
+
+                <View
+                    android:visibility="visible"
+                    android:id="@+id/v_dot3"
+                    style="@style/dot_style" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_querybalance"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/querybalance_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_customerinfo"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/customerinfo_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_tradelist"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/tradelist_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_realtime"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/realtime_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_consume"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="2"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/consume"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/consume_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_rongtongbao"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/rongtongbao_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_improve"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/improve_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_oprate_declar"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/oprate_declar_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_dianping"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/dianping_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_transfer"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/transfer_selector" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll_gupiao"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/gupiao_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_jiaoche"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/jiaoche_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_jipiao"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/jipiao_selector"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/border" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_lvyou"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/lvyou_selector" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_phonechongzhi"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/phonechongzhi_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_shuidianmei"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/shuidianmei_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_tuangou"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/tuangou_selector" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_cardchongzhi"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/cardchongzhi_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_creditrepay"
+                    android:visibility="visible"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/creditrepay_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="invisible"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/tuangou_selector" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

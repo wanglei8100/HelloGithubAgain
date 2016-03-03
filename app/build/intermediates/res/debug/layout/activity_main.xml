@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="43dip"
+        android:paddingTop="117dip">
+
+        <ImageView
+            android:layout_width="153dip"
+            android:layout_height="118dip"
+            android:src="@drawable/logo"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="70dip"
+        android:paddingRight="55dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/usericon"
+
+            />
+
+        <EditText
+            android:id="@+id/login_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/loginname"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColorHint="#bebebe"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/ib_txt_clear"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/txt_clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="55dip"
+        android:paddingRight="55dip"
+        android:paddingTop="13dip">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#7c8692"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="70dip"
+        android:paddingTop="27dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/locked"
+
+            />
+
+        <EditText
+            android:id="@+id/login_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:textColorHint="#bebebe"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dip"
+        android:paddingLeft="55dip"
+        android:paddingRight="55dip"
+        android:paddingTop="13dip">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#7c8692"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="55dip"
+        android:paddingRight="55dip">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/button_click_selector"
+            android:text="@string/login"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+           >
+
+            <TextView
+                android:id="@+id/register_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/register_account"
+                android:textColor="#7c8692"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:visibility="visible">
+
+                <View
+                    android:visibility="visible"
+                    android:layout_width="1dip"
+                    android:layout_height="15dip"
+                    android:background="#7c8692" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/find_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:text="找回密码"
+                android:textColor="#7c8692"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_version_number"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#7c8692"
+            android:textSize="10sp"
+            android:text="版本信息："/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/layout/activity_main.xml -->

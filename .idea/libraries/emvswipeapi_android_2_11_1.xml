@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="emvswipeapi-android-2.11.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/emvswipeapi-android-2.11.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

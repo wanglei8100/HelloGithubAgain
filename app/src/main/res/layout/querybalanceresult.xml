@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:text="@string/accountbalance" />
+
+        <TextView
+            android:id="@+id/balanceval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="1000.00"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#7c8692" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/customername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customername"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/customernameval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:layout_toRightOf="@+id/customername"
+            android:background="@null"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/trade_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trade_type"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/trade_type_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:layout_toRightOf="@+id/trade_type"
+            android:background="@null"
+            android:text="@string/querybalance"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/tradecardnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tradecardnumber"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tradecardnumber_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:layout_toRightOf="@+id/tradecardnumber"
+            android:background="@null"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/passwordval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passwordval"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passwordval_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:layout_toRightOf="@+id/passwordval"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/autoquerybalance_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/autoquerybalance"
+            android:layout_width="185dip"
+            android:layout_height="45dip"
+            android:background="@drawable/add_selector"
+            android:text="@string/autoquery"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/bt_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/button_click_selector"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

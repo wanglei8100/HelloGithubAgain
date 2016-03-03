@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-70337bbe70607ac72eae7a1861bd233c05aa2181.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\classes-1d61b5d59ee6a70a403bfe173ae3a71083648adc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.androidannotations\androidannotations-api\3.2\89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1\androidannotations-api-3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\androidannotations-api-3.2-0caa2eb095f15dd7a95857901f6b8c9089f820b6.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\hxAndroidSdk2032.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="75a796d0e79718c46721ec92c5206397a71e5a6a">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\hxAndroidSdk2032-7af15429457cbd7bc3bf2d4b477b6c643f0f4b7a.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\httpmime.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\httpmime-52ab0dfd6c5640f69dd17d26a1083a97fb06fce0.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\dspread_android_sdk_2.4.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4f9073a1e7f067292ee44199fe9f44630c38ca07">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\dspread_android_sdk_2.4.2.1-0e44a5acf6c6ca8edc2a18a5d20d75acecae9281.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\build\intermediates\exploded-aar\com.loopeer.android.thirdparty.pulltorefresh\Android-PullToRefresh\2.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9f11d8acfc18e091d8a247a8d5a34266b6cb04ab">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\classes-3e992ab7493f7f146fcdc261655566de3948492c.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe75606aa9485cd20177894c204291a79a0cc7ab">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\classes-dc3000b6f44228a73013e50def132898972172c9.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\aishuaver_4.25beta1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e1a8b905e0f6eb3cace352a21284a5f9c751975e">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\aishuaver_4.25beta1-de773bd08258cedbb3c67537a3b8b2d6a9817bca.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\wisepadapi-android-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e02a8bc70dc6f646d73d4bca30df1cae86155c8a">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\wisepadapi-android-2.5.2-992ff54f1c5b1d692a12579453cfbd3eecb2afb7.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\xnminipossdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="da305e52fcd107a324aa9956543b9023478c6053">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\xnminipossdk-1f4d947fcb4396889e4c823e0cd1f0c8e2fce348.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\mfreadersdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eac5f77178f4cf774958107bce32da44b035adad">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\mfreadersdk-ff5ef4ffdf51a23f5baafd4f77ad14cd2d83db9c.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\litepal-1.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="36e5b16977b343ddce8966e1362256ef1b3baf2d">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\litepal-1.2.1-3492c0691755cdcb267e6c26f2870841269366fa.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="119ef9a57b5365288a68dae9ae94c5535acabb04">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\volley-0c0db326c42f472064b6b6e9fd52af7257fb19cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\1.6\596daefa34b9ea58eac9677b23325b7e60eae948\gson-1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="596daefa34b9ea58eac9677b23325b7e60eae948">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\gson-1.6-29298b8f2bc10aa392c2a5ce87c9dca97d0d3466.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\ftp4j-1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5587b19a4527cf8e0e53a58aff649e06dbd869d9">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\ftp4j-1.6-63cb1b0b8e178157e2580c999481d6f8da60ea1b.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-26fa34d0e0f65a6f58c2f1347723263f45720bca.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\httpclient-4.3.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\httpclient-4.3.5-5a480422fa20eabaf46e0cd2488b09af11639349.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\emvswipeapi-android-2.11.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f427dfb4ef75a8eada4c513ca117d1d71874c757">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\emvswipeapi-android-2.11.1-43147a011edc400991946c8dfce18554ed9949ee.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\classes-e4a3530af93255f2b15bbdd087f96b812e653b9f.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\android-async-http-1.4.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cd78109020f9ec803ef4e652c17ee4615b03e20a">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.7-cfda06841189e175d1f68714f87e223c8ba13f71.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\iMagPayPOSSDKV1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="80c84499243848351917001763d623116049d4bc">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\iMagPayPOSSDKV1.2-2e5f302f15d09eef050b99301ad0271a33faae3f.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab78ed461deab5206c4cac6bbcf60e6d963cfd85">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\classes-a365b24cffa54a54797e6396dc7036fc095b7b5f.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\httpcore-4.3.2-91c0f9e447395b8e88be4b9178f02f94cc92460b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.7\a5c721e8ea1e18854272879d6ed2770d25feb342\fastjson-1.2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a5c721e8ea1e18854272879d6ed2770d25feb342">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\fastjson-1.2.7-5ad8d26fef2194d2576e8eac02e4ae5460bd4ee3.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\libs\yfcomm_sdk_v1.09.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5cc8218621872b3f6aec8c5d668037721c800d99">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\yfcomm_sdk_v1.09-3708f2d04be684290ac3e7a9db084888d9b4ce70.jar" />
+    </item>
+    <item
+        jar="F:\developer02\Android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6503b5ce09a5bf42e4ff66dfc5a8b91abd9ca151.jar" />
+    </item>
+    <item
+        jar="F:\workspace_studio\CaiHongCity\app\build\intermediates\exploded-aar\CaiHongCity\materialloadingprogressbar\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ae49ae7ef402f06143fb6f1d8ed3ad5a77ddf13d">
+        <dex dex="F:\workspace_studio\CaiHongCity\app\build\intermediates\pre-dexed\debug\classes-23c5fac40b236ce63f8a39197d6d9c59423ea4a1.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xn80readersdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/xn80readersdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

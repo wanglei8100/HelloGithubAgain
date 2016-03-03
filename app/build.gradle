@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+def AAVersion = '3.2+'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.caihongcity.com"
+        minSdkVersion 14
+        targetSdkVersion 18
+    }
+
+    packagingOptions{
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+
+//    signingConfigs {
+//        release {
+//            storeFile file(System.getenv("KEYSTORE"))
+//            storePassword System.getenv("KEYSTORE_PASSWORD")
+//            keyAlias System.getenv("KEY_ALIAS")
+//            keyPassword System.getenv("KEYSTORE_PASSWORD")
+//
+//        /*    storeFile file(System.console().readLine("\n\$ Enter keystore path: "))
+//            storePassword new String(System.console().readPassword("\n\$ Enter keystore password: "))
+//            keyAlias System.console().readLine("\n\$ Enter key alias: ")
+//            keyPassword new String(System.console().readPassword("\n\$ Enter key password: "))*/
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+//            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.code.gson:gson:1.6'
+    compile files('libs/android-async-http-1.4.7.jar')
+    compile files('libs/classes.jar')
+    compile files('libs/volley.jar')
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile files('libs/aishuaver_4.25beta1.jar')
+    compile files('libs/ftp4j-1.6.jar')
+    compile files('libs/hxAndroidSdk2032.jar')
+    compile files('libs/universal-image-loader-1.9.2.jar')
+    compile files('libs/httpclient-4.3.5.jar')
+    compile files('libs/httpcore-4.3.2.jar')
+    compile files('libs/httpmime.jar')
+    compile files('libs/iMagPayPOSSDKV1.2.jar')
+    compile files('libs/yfcomm_sdk_v1.09.jar')
+    compile files('libs/xnminipossdk.jar')
+    compile files('libs/wisepadapi-android-2.5.2.jar')
+    compile files('libs/emvswipeapi-android-2.11.1.jar')
+    compile files('libs/dspread_android_sdk_2.4.2.1.jar')
+    compile files('libs/xn80readersdk.jar')
+    compile project(':materialloadingprogressbar')
+    compile files('libs/mfreadersdk.jar')
+    compile 'com.alibaba:fastjson:1.2.7'
+    compile files('libs/iMagPayPOSSDKV1.2.jar')
+    compile files('libs/xnminipossdk.jar')
+    compile files('libs/yfcomm_sdk_v1.09.jar')
+    compile files('libs/dspread_android_sdk_2.4.2.1.jar')
+    compile files('libs/emvswipeapi-android-2.11.1.jar')
+    compile files('libs/wisepadapi-android-2.5.2.jar')
+    compile files('libs/litepal-1.2.1.jar')
+    compile 'com.loopeer.android.thirdparty.pulltorefresh:Android-PullToRefresh:2.1.1'
+    compile 'com.jiechic.library:xUtils:2.6.14'
+}
+
+
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+    }
+}

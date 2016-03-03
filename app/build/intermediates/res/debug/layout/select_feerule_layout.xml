@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip" >
+
+        <LinearLayout
+            android:id="@+id/ll_supermarket_feerule"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/supermarket_feerule" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pifa_feerule"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baihuo_feerule" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dip" >
+
+        <LinearLayout
+            android:id="@+id/ll_canyin_feerule"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:background="@drawable/border"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/canyin_feerule" />
+        </LinearLayout>
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dip" >
+
+                <LinearLayout
+                    android:id="@+id/ll_shishijiesuan_feerule"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/border"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/pifa_feerule" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/layout/select_feerule_layout.xml -->

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aishuaver_4.25beta1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/aishuaver_4.25beta1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

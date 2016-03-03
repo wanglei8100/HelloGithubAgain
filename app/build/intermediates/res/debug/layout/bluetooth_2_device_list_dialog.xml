@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="已配对的装置" />
+    
+    <ListView
+	    android:id="@+id/pairedDeviceList"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+    
+    <TextView
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="找到的装置" />
+	    
+	<ListView
+	    android:id="@+id/discoveredDeviceList"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp" />
+	    
+	<Button
+       	android:id="@+id/cancelButton" 
+       	android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:text="@string/cancel" />
+    
+</LinearLayout><!-- From: file:/F:/workspace_studio/CaiHongCity/app/src/main/res/layout/bluetooth_2_device_list_dialog.xml -->

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title"/>
+
+    <!-- 显示消费以及撤销结果 -->
+<ScrollView   android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/consumeresult_pro_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingBottom="5dip" >
+
+        <LinearLayout
+            android:id="@+id/consumetradetime_layout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="21dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/trademoney"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="10dip"
+                android:text="999,999.00"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="14dip" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#CCCCCC" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/consumetradetime_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consumetradetime"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/consumetradetime_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:text="2015-01-01 11:11"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cardbank"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cardbank_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:text="建设银行"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cardnumber"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cardnumber_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:text="12345678901212"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tradenumber"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tradenumber_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:text="201501011111111111"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shouquanma"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/shouquanma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:text="123456"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trade_type"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tradetype_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="消费"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tradestatus"
+                android:textColor="#7c8692"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tradetype_pro02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="交易成功"
+                android:textColor="#00C957"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tradesuccess" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingRight="10dip" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:paddingRight="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|center"
+                    android:text="@string/signnameimage"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_sign_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/phoneofcustomer_layout"
+                    android:layout_width="204dip"
+                    android:layout_height="45dip"
+                    android:gravity="center|center_vertical"
+                    android:paddingLeft="10dip" >
+
+                    <EditText
+                        android:id="@+id/sendphone_pro"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:hint="@string/pleaseinputcustomermobile"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:paddingLeft="10dip"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sendbtn_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:paddingLeft="5dip" >
+
+                    <Button
+                        android:id="@+id/consume_result_sendbtn_pro"
+                        android:layout_width="125dip"
+                        android:layout_height="45dip"
+                        android:background="@drawable/add_selector"
+                        android:text="@string/send"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="345dip"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="8dip" >
+
+                <Button
+                    android:id="@+id/confirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:background="#e66714"
+                    android:text="@string/confirm"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

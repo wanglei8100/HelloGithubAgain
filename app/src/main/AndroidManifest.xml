@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caihongcity.com"
+    android:versionCode="19"
+    android:versionName="1.8.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- GPS定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".activity.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity_"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterActivity_"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.StartActivity_"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.SwipeActivity_"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.TradeStatusSuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.TradeStatusFailureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.SignNameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.SwipeWaitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.ToBalanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.QueryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.ConsumeInputPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.QueryBalancceResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.QueryBalanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.TradeDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.ModifyPwdActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.CustomerinfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.BankNameListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.SelectFeeRuleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activity.TradeStatusActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <!-- service -->
+        <service android:name=".service.GetKsnService" />
+
+        <activity
+            android:name=".activity.SelectTerminalActivity_"
+            android:label="@string/title_activity_select_terminal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.BluetoothSelectActivity_"
+            android:label="@string/title_activity_bluetooth_select_activity_"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SwipeWaitBluetoothActivity_"
+            android:label="@string/title_activity_swipe_wait_bluetooth"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SwipeWaitHuiXingActivity_"
+            android:label="@string/title_activity_swipe_wait_bluetooth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CustomerPicInfoActivity"
+            android:label="@string/title_activity_swipe_wait_bluetooth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SwipeWaitMoFangActivity_"
+            android:label="@string/title_activity_swipe_wait_mo_fang"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SwipeWaitMoFangBlueActivity_"
+            android:label="@string/title_activity_swipe_wait_mo_fang"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SwipeWaitZhongCiActivity_"
+            android:label="@string/title_activity_swipe_wait_zhong_ci"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.FindPwdActivity_"
+            android:label="@string/title_activity_find_pwd"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.LaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RealTimeActivity"
+            android:label="@string/title_activity_real_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SwipeWaitYiFengBlueActivity_"
+            android:label="@string/title_activity_swipe_wait_yi_feng_blue"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SwipeWaitXinNuoBlueActivity_"
+            android:label="@string/title_activity_swipe_wait_xin_nuo_blue"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.caihongcity.com.activity.SwipeWaitBBPoseBuleActivity_"
+            android:label="@string/title_activity_bbpose_bule"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.caihongcity.com.activity.SwipeWaitBBPoseActivity_"
+            android:label="@string/title_activity_swipe_wait_bbpos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.caihongcity.com.activity.SwipeWaitXinLianDaActivity_"
+            android:label="@string/title_activity_xin_lian_da" >
+        </activity>
+        <activity
+            android:name=".activity.ImproveActivity_"
+            android:label="@string/title_activity_creditrepay" >
+        </activity><activity
+            android:name=".activity.InstructionsAct_"
+            android:label="@string/title_activity_creditrepay" >
+        </activity><activity
+            android:name=".activity.InstructionsDetailAct_"
+            android:label="@string/title_activity_creditrepay" >
+        </activity><activity
+            android:name=".activity.NotificationListActivity_"
+            android:label="@string/title_activity_creditrepay" >
+        </activity><activity
+            android:name=".activity.NotificationDetailActivity_"
+            android:label="@string/title_activity_creditrepay" >
+        </activity>
+        <activity
+            android:name=".activity.BindCardListActivity_"
+            android:label="@string/title_activity_bind_card_list" >
+        </activity>
+        <activity
+            android:name=".activity.QueryOldActivity"
+            android:label="@string/title_activity_bind_card_list" >
+        </activity>
+    </application>
+
+</manifest>
